@@ -1,0 +1,21 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --display-error-details"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.0.0-preview.3"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
